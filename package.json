@@ -1,0 +1,30 @@
+{
+  "name": "aritgeo",
+  "version": "1.0.0",
+  "description": "differentiates arithmetic from geometric arrays",
+  "main": "src/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/tddtest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OkweyeChioma/aritGeo.git"
+  },
+  "keywords": [
+    "tdd",
+    "javascript"
+  ],
+  "author": "okweye chioma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OkweyeChioma/aritGeo/issues"
+  },
+  "homepage": "https://github.com/OkweyeChioma/aritGeo#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^3.5.3"
+  }
+}
