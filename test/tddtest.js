@@ -14,10 +14,10 @@ describe("Array Progression",function(){
 	})
 	describe('handle geometric progression',function(){
 		it("should return Geometric as array progression for[1,2,4,16,32]",function(){
-			assert.equal(myApp.aritGeo([1,2,4,16,32]), 'Geometric')
+			assert.equal(myApp.aritGeo([1,2,4,8,16,32]), 'Geometric')
 		});
 		it("should return Geometric as array progression for [1,-2,4,-8]",function(){
-			assert.equal(myApp.aritGeo([1,-2,4,-8]),' Geometric')
+			assert.equal(myApp.aritGeo([1,-2,4,-8]),'Geometric')
 		});
 		it("should return Geometric as array progression for [81,27,9,3]",function(){
 			assert.equal(myApp.aritGeo([81,27,9,3]),'Geometric')
